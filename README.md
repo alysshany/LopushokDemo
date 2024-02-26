@@ -24,7 +24,7 @@
 Склонировать репозиторий проекта
 
 ```
-git clone https://github.com/WingiM/Lopushok
+git clone https://github.com
 ```
 
 Перейти в директорию проекта и выполнить сборку
