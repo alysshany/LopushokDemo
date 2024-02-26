@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LopushokWpf.ADO;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -13,5 +14,6 @@ namespace LopushokWpf
 	/// </summary>
 	public partial class App : Application
 	{
+		public static LopushokEntities Connection = new LopushokEntities();
 	}
 }
