@@ -96,6 +96,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model.edmx</DependentUpon>
     </Compile>
+    <Compile Include="ADO\PartialClasses\Product.cs" />
     <Compile Include="ADO\Product.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
@@ -167,6 +168,7 @@
       <DependentUpon>Model.edmx</DependentUpon>
       <LastGenOutput>Model.cs</LastGenOutput>
     </Content>
+    <Resource Include="Images\picture.png" />
     <Resource Include="Images\products\paper_0.jpeg" />
     <Resource Include="Images\products\paper_1.jpeg" />
     <Resource Include="Images\products\paper_10.jpeg" />
