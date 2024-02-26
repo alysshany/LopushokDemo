@@ -38,4 +38,4 @@ dontet build
 
 ## Авторы
 
-- **Галиева Зиля** - _Initial work_ - [alysshany](https://github.com/alysshany)
+- **Галиева Зиля 420П** - _Initial work_ - [alysshany](https://github.com/alysshany)
