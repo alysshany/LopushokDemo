@@ -79,7 +79,7 @@ namespace LopushokWpf.Pages
 				{
 					products = products.OrderBy(x => x.NumberOfFactory).ToList();
 				}
-				else
+				else if (SortField == "Минимальная стоимость для агента")
 				{
 					products = products.OrderBy(x => x.MinimalAgentCost).ToList();
 				}
@@ -94,7 +94,7 @@ namespace LopushokWpf.Pages
 				{
 					products = products.OrderByDescending(x => x.NumberOfFactory).ToList();
 				}
-				else
+				else if (SortField == "Минимальная стоимость для агента")
 				{
 					products = products.OrderByDescending(x => x.MinimalAgentCost).ToList();
 				}
