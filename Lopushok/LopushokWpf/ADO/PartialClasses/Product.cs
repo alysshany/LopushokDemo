@@ -18,7 +18,7 @@ namespace LopushokWpf.ADO
 				var bitmap = new BitmapImage();
 				byte[] bytes;
 
-				if (Image == null || Image == "" || Image == "нет" || Image == "не указано")
+				if (Image == null || Image == "")
 				{
 					bytes = File.ReadAllBytes(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName +
 											  $"\\Images\\picture.png");

@@ -71,6 +71,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ProductInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\LopushokWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -117,6 +121,9 @@
     <Compile Include="Classes\NavComponentsClass.cs" />
     <Compile Include="Pages\ItemsList.xaml.cs">
       <DependentUpon>ItemsList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ProductInfoPage.xaml.cs">
+      <DependentUpon>ProductInfoPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\LopushokWindow.xaml.cs">
       <DependentUpon>LopushokWindow.xaml</DependentUpon>
